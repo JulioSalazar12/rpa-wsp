@@ -104,9 +104,10 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="724,3512" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="724,3588" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtDatos" />
     </Sequence.Variables>
@@ -169,13 +170,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelProcessScopeX>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Nueva pestaña" sap:VirtualizedContainerService.HintSize="662,2731" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1ea4d8d1-c7df-4656-b2b7-6d58c8a26e85" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Nueva pestaña" sap:VirtualizedContainerService.HintSize="662,2807" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1ea4d8d1-c7df-4656-b2b7-6d58c8a26e85" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="628,2514" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="628,2590" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -186,13 +187,13 @@
                 <uix:TargetAnchorable DesignTimeRectangle="153, 47, 322, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'https://web.whatsapp.com'" FullSelectorArgument="&lt;ctrl name='WhatsApp: Microsoft Edge Dev - Personal' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='WhatsApp: Microsoft Edge Dev - Personal' role='pane' /&gt;&lt;ctrl name='Barra de la aplicación' role='tool bar' /&gt;&lt;ctrl name='Barra de direcciones y búsqueda' role='editable text' automationid='' /&gt;" Guid="94d86e53-5e3c-4751-853f-69f9b01b3225" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUYAAAAeCAYAAABQfbfeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR7SURBVHhe7Z0xViMxDIbnPPA4ADeg4gzkcYNUefSpU2zBDejoKPYaHIK3x5i1NJYtyZokvMSbzPIX3yNjy5JsSz8TGobn968RAABAZbi9vR0BAABUIIwAAOAownhzc9NMAgDAT0Fr4Owb46/ffwC4GqIaBaAXEEawCKIaBaAXEEawCKIaBaAXEEawCKIaBaAXEEawCKIaBaAXEEawCKIaBaAXe4Txc3y6H8bHXVyoF+Ptdby7fx23bny9Omeuffa+3TyMw+ojnAP7iWoUgF6cJIxRo5NA3W0+zdg5Cf2TWA4v41qPncQ1CuPH+Dg8jE9v0dz/T1SjAPRiYcJI4tAKIOVx3pgQxmsjqlEAenGEMFJDDuPA1MYkAZzGJh53k30dy7a7l3Ggr770U+bcV2HjK8/xmBcR8tEIC8XNsZo3xyn3KnBe8PTetKCLnd1TKJSyP3nmHLSAVUETYdT7tYJu8yl+2efh8ZKfPuuEjiE58E+x0Wd6xH1Z3L0rWxMjEeVRz2K6N71G20c1CkAvDgqjFCwVJxexL3wnVGRjml0aTNkZ0XPCsk1CTJ+NDeNFLWPWO5smNgmP7MeLZhWwunclcI3gCXpdbexyBrQu5ydzNj/lMz3bfObyI/x5JJHJn9cr9cuBY9TnJr/spzw3ZxbdheDWJtYbvVeVh9uPPwuOofNyeUc1CkAvvvdVmsXBNZlrmFAYlfAx2o9rgFmUwOhxiqdzpJwkPn1+TI1a1lEsyTfIq64N9p5o9qbGa4Mn8drUOD4fe15xHMHGi4UxyscSCLcXOX0Wh+5LE9ky8b507CYP8mVi2LyjGgWgF5cRRi561QTcFO4NzUGxWhFwfogSj/KnOfo5+dUCxrlzTAfvZ76xIyGq55Dy4diSV41t7WStjzM963zmhdHZa798T9rPvhyyvdzRMfeVCX0xUa4J5btZ2/zisz6iGgWgF5d/Y2zGg4aaabS4MbPtLvnKc2R3t/kwIsV5hU1NBHtPNHsTZD/Jp8xPImwFpc1Xx2lj2ngzYpMhW/bdnK1dF56ZvqPv3Fdky8Tnp8+8yYNiQBjBlfBvhDG9tVQ/k1+x2aavnbXZazOURhcfvpnZTywUnEOaKzG56ZI4No0XNC8z5Wianvche7d7kFwoRskn2dOzznu/MHrhm/KbF8b0HPmmPJu86zq2C+KUc2D7+fuy5+BzTGf/nb8x6rOAMIIr4iRhlGI3jcQ26utbbtQnErpsaxoiN6IgfrQw0meTB9E0ksI0L9E2MFNyFaQR897p75PNXJ3X/rjRdT7Zt867EQN3xpOYSLyXJHxBDJrjONPaYl9iu/FV8qNyn3JI96FszLkcdV9xDXhbu58DZ9HcJ4QRXI49wigFeiK50UIBOwYWGN2IE82bKTiKRpA8p95XJ6IaBaAXVy+M1MitANLbRCuW4DAQRgAOc/1vjOCsQBgBOEx/YQTgDEQ1CkAvIIxgEUQ1CkAvIIxgEUQ1CkAvijDi36cCAH4yR/37VAAA+KlAGAEAwDE8v3+NAAAAhK/xL50krV4ZWysuAAAAAElFTkSuQmCC" InformativeScreenshot="2d38037e0863c37b4730d086d2bd31b2.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='WhatsApp y 8 páginas más - Personal: Microsoft​ Edge Dev' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="566,2202" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="566,2278" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="532,2016" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="532,2092" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -209,10 +210,10 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="490,52" sap2010:WorkflowViewState.IdRef="Delay_1">
+                    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="490,90" sap2010:WorkflowViewState.IdRef="Delay_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -307,10 +308,10 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NKeyboardShortcuts>
-                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="490,52" sap2010:WorkflowViewState.IdRef="Delay_2">
+                    <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="490,90" sap2010:WorkflowViewState.IdRef="Delay_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
